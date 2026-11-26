@@ -1,0 +1,200 @@
+{
+  "Beginners Men's Doubles": {
+    "type": "Doubles",
+    "groups": {
+      "A": [
+        "Carlo P. Divedor/Alan L. Bordon",
+        "Bert Labuaya/Ronald Jim Somera",
+        "Joel P. Alcorin/Manuel Marcelino",
+        "Arvy Saab/Rommel Gatinao"
+      ],
+      "B": [
+        "Joeyfred Macababayao/Joven Mendoza",
+        "Ralph Vincent Feller/Melvani Deadio II",
+        "Jonathan R. Tuvillara/Rey R. Catedral",
+        "Jimmy D. Castillo/John Albert Palma"
+      ],
+      "C": [
+        "Jehu Palaca/Deopeter Duron",
+        "Anuar Ibrahim Gampong/Kent Rayzard Abas",
+        "Kervee Jastien Aberde/GC Gicain",
+        "John Rovee Tuvillara/John Michael Tuvillara"
+      ],
+      "D": [
+        "John Albert Balisi/Loven Angelo Lapu",
+        "Jestoni Penetrante/Leemart Clyde Turno",
+        "Cezar Bryan S. Castillo/Karl Roger S. Aperocho",
+        "Jan Anton Claudio Palos/Jeremiah S. Sabrido"
+      ]
+    }
+  },
+  "Beginners Women's Doubles": {
+    "type": "Doubles",
+    "groups": {
+      "A": [
+        "Virgie C. Velinario/Jennifer A. Suba",
+        "Queenie May J. Valenzuela/Charlene E. Huinda",
+        "Rona Joy Bagaforo/Edisa Verde",
+        "Dessa Lyka/Mymona Serofia",
+        "Ann Lyn Dagangon/Maquille Angelou Sabano",
+        "Ronaleen Palate/Khys Myrrh Era"
+      ],
+      "B": [
+        "Kricee Leigh Disca/Tiffany Mae Tagarda",
+        "Estefhanie Balicucos/Alnin Mia Villarin",
+        "Charmaine Cambas/Lori Mae Dumanlag",
+        "Janice Calunsod/Axcel Rose Bernal",
+        "Jovint Espiritu/Lorelie Solas"
+      ]
+    }
+  },
+  "Beginners Mixed Doubles": {
+    "type": "Doubles",
+    "groups": {
+      "A": [
+        "Aldin Jan Pineda/Raigel M. Dela Peña",
+        "Joven M. Defacto/Eden Rose C. Dedal",
+        "Jane Jotajot/Jonathan E. Duayao",
+        "Ellaijah Jane V. Sorioso/Jeremiah S. Sabrido"
+      ],
+      "B": [
+        "Joeyfred Macababayao/Kyla Lenantud",
+        "Sarve Swayne P. Del Castillo/Adrian Ralph Taculod",
+        "Merjohn Advincula/Lea Enriquez",
+        "Val anthony Bainto/Famela Alagos"
+      ],
+      "C": [
+        "John Francis Hechanova/Marivic Bansuelo",
+        "Ali Somonsol/Charlene Galano",
+        "Angelie Villarosa/Ronald Jim Somera",
+        "Charmmie Delos Santos/Alex Acot"
+      ],
+      "D": [
+        "Emil Patrick Balquin/Jojie Ann De Baras",
+        "Romelyn Labinghisa/Jestone Penetrante",
+        "Kenneth Joy S. Flores/Ryan Jay P. Quiao",
+        "Maquille Angelou Sabano/Clark Heiron Valencia"
+      ]
+    }
+  },
+  "Low Novice Men's Doubles": {
+    "type": "Doubles",
+    "groups": {
+      "A": [
+        "Rey Marlene Dela Gente/Terrence Jacob Diama",
+        "Jason Dave D. Maghari/Jaype P. Medida",
+        "Jayson Herman/Felix Cuevas",
+        "Dennis Inocente/Salyn Kitz Purto",
+        "Jojet Puna/Jairo Kristoffer Malan",
+        "Jowel Mar Tison/Darren James Baylaran"
+      ],
+      "B": [
+        "Jan Anton Claudio Palos/Dave B. Porferio",
+        "Brian Joshua A. Dela Peña/Glen V. Anza",
+        "Kelven D. Calonge/Timothy James Zambrona Montejo",
+        "Jonathan R. Tuvillara/Julius Dela Cruz",
+        "Erik John M. Sales/Francis Jay M. Agtas",
+        "Rochel Jan Ilao/Cherubim P. Facura"
+      ],
+      "C": [
+        "Joven M. Defacto/Vincent M. Aguirre",
+        "Jay parales/Charles jorda",
+        "Arlan Permalion/Jason Grejaldo",
+        "Joefel Pablo/Rey Mark Baldaba",
+        "Marvin R. Villahermosa/Elner Palomo"
+      ],
+      "D": [
+        "Rod Jasper Doronila/Jerald Laud Catoto",
+        "Rey Cathedral/Deopeter Duron",
+        "Charles Jorda/Jay Parales",
+        "Jestone Palate/Alexes Tadena",
+        "Laurence Jay Gella/Leandre Marc Degracia"
+      ]
+    }
+  },
+  "Low Novice Women's Doubles": {
+    "type": "Doubles",
+    "groups": {
+      "A": [
+        "Raigel Dela Peña/Marivic Bansuelo",
+        "Shema Lanaria/Genilyn N. Narvaza",
+        "Swayne Del Castillo/Mary Ayegami Edo",
+        "Nerilyn Batlag/Christine Joy M. Castañares",
+        "Joane Mae Magdayao/Nancy Burgos",
+        "Glenna Herman/Krishia Mae Dela Gente"
+      ]
+    }
+  },
+  "Low Novice Mixed Doubles": {
+    "type": "Doubles",
+    "groups": {
+      "A": [
+        "Eddie Magdayao Jr./Joane Mae Magdayao",
+        "Joel P. Visuyan/Maymona Serofia",
+        "Cyprus Cyrmith Mayormente/Queenie Love Mayormente",
+        "Jowel Tison/Aira Maguling"
+      ],
+      "B": [
+        "Genilyn N. Narvaza/Salyn Kitz Purto",
+        "Nieza Andrada/Felix Cuevas",
+        "Krishia Mae Dela Gente/Rey Marlene Dela Gente",
+        "Yves Job Ulanday/Norie Angela Ulanday"
+      ],
+      "C": [
+        "Jason Dave D. Maghari/Zyrra Angelica Rendon",
+        "Pretzel Paclejan/Stephen Frondoza",
+        "Jayson Herman/Glenna Herman",
+        "Jestone Palate/Ronaleen Palate"
+      ],
+      "D": [
+        "Mary Ayegami Edo/Cherubim Facura",
+        "RG April Valera Reyes/Micahel Roldan Jalagat",
+        "Ariz Jade Balajadia/Shema Rose Lanaria",
+        "Melvin Guilaran/Roselyn L. Villanueva"
+      ]
+    }
+  },
+  "High Novice Coed Doubles": {
+    "type": "Doubles",
+    "groups": {
+      "A": [
+        "Melanio Joseph Trabado III/Quennie Rose Tan",
+        "Dulcisimo C. Calonge/Saiden Cartil",
+        "Jerric R. Fiel/Kieran Kyle Tanco",
+        "Joel Visuyan/Eddie Magdayao Jr.",
+        "Brian Joshua A. Dela Peña/Glen V. Anza"
+      ],
+      "B": [
+        "Daniel Avergonzado/Kennette Z. Amban",
+        "Melinda S. Bonifacio/Star J. Ballesta",
+        "Joey H. Bonilla/Yogen B. Daypuyart",
+        "Carla Cailan/Cedric Cartil",
+        "Rod Jasper Doronila/Earl Blanche Suzaine Doronila"
+      ],
+      "C": [
+        "Natylen Dingal/Cyprus Mayormente",
+        "Santos Macarine Jr./Lybie John Fernando Billones",
+        "Apple John Satorre/Zynafe Caijo",
+        "Phoebe Kates Dones/Evan Vic B. Gabut",
+        "Roselyn Villanueva/Romeo Meliton"
+      ]
+    }
+  },
+  "40 UP": {
+    "type": "Doubles",
+    "groups": {
+      "A": [
+        "Melanio Joseph Trabado III/Daniel Avergonzado",
+        "Natylen Dingal/Dulcisimo Calonge",
+        "Apple John Satore/Zynafe Caijo",
+        "Melvin A. Guilaran/Ivy Joy G. Torrejos"
+      ],
+      "B": [
+        "Marlon Galve/Julius Dela Cruz",
+        "Marvin Villahermosa/Elner Palomo",
+        "Bert Labuaya/Levi Butihen",
+        "Diosdado Corpuz/Romeo Francisco"
+      ]
+    }
+  }
+}

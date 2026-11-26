@@ -1,0 +1,40 @@
+COURTCTRL MULTI-COURT SCHEDULER - ELIMINATION MATCH MAPPING FIX
+================================================================
+
+Fixes the reported errors for:
+- Low Novice Men's Doubles / Elimination / QF 1-4
+- Low Novice Women's Doubles / Elimination / SF 1-2
+- Low Novice Men's Doubles / Elimination / SF 1-2
+
+Cause:
+The previous importer incorrectly searched for an elimination match using the
+Excel label number (QF 1, SF 1) as matches.match_number. COURTCTRL uses a
+category-wide match_number counter, so the first QF may have a much higher
+number. Elimination round names are also stored as "Quarterfinals" and
+"Semifinals" (plural), not "Quarterfinal" / "Semifinal".
+
+Fix:
+The importer now groups existing elimination matches by their stored round
+name, orders them by match_number, and maps QF 1 / SF 1 to the first match
+within that round. The same ordinal mapping applies to Final and Bronze if
+those matches already exist in the database.
+
+INSTALLATION
+1. Back up your MySQL database.
+2. Extract this ZIP.
+3. Copy/merge the pickleball_tournament folder into:
+   C:\xampp\htdocs\
+4. Replace the existing fixed_schedule.php when prompted.
+5. Re-open:
+   http://localhost/pickleball_tournament/fixed_schedule.php
+6. Upload Final Schedule.xlsx again.
+
+IMPORTANT:
+The importer does not create missing elimination matches. If the database has
+no Bronze match for a category, Bronze will still be reported as unmatched.
+Generate the elimination stage first in Scoring & Standings. The Bronze match
+must exist in the database before it can be scheduled through this importer.
+
+VALIDATION
+PHP syntax check passed for fixed_schedule.php and ZIP integrity was checked.
+Actual import must still be tested against the local XAMPP/MySQL database.

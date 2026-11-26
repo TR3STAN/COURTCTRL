@@ -1,0 +1,16 @@
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+config/config.local.php
+config/database.local.php
+/config/database.php
+# Dependencies
+/vendor/
+/node_modules/
+/pickleball_tournament/
+# Temporary files
+*.log
+.DS_Store
+Thumbs.db

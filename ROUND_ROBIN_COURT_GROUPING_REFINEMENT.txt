@@ -1,0 +1,18 @@
+COURTCTRL - Round Robin Court Grouping Refinement
+
+Requested UI behavior:
+- Round Robin matches are shown in separate court sections, based on their existing court assignments.
+- The page no longer creates an "Unassigned Court" section.
+- Each match card displays the category name and bracket label.
+- Court reassignment remains available but is tucked inside a collapsed "Reassign court (optional)" control, so it is not a primary action.
+- Existing score entry, start-match, save/finish, and match status behavior is retained.
+
+Install:
+1. Back up the current project folder and MySQL database.
+2. Extract this ZIP.
+3. Copy the included pickleball_tournament folder into C:\xampp\htdocs\ and replace existing files.
+4. Refresh Scoring & Standings and select the category.
+
+Validation:
+- PHP syntax check passed for scoring.php.
+- Database/browser runtime testing was not performed.

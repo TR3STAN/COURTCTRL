@@ -1,0 +1,23 @@
+COURTCTRL SIDEBAR + ACTIVE TOURNAMENT DISPLAY FIX
+===================================================
+
+Changes:
+- Standardized the sidebar across Dashboard, Tournament Workspace, Tournament Setup, Players & Teams, Brackets, Schedule & Courts, Live Feed, and Scoring & Standings.
+- Added all module links to the Tournament Workspace sidebar.
+- Updated sidebar styling to use the consistent navy/green COURTCTRL theme.
+- Improved sidebar scrolling and stacking/click behavior so links remain clickable.
+- Sidebar links retain the active tournament ID.
+- Tournament Setup now remembers the active tournament when opened from the workspace.
+- Added an ACTIVE TOURNAMENT label with the selected tournament name to Players & Teams, Brackets, Schedule & Courts, Live Feed, Scoring & Standings, and Tournament Setup.
+- Updated module page navigation buttons to return to the Tournament Workspace while preserving the selected tournament.
+- The selected tournament remains stored in the PHP session.
+
+Install:
+1. Back up C:\xampp\htdocs\pickleball_tournament.
+2. Extract this ZIP into C:\xampp\htdocs\ and allow files to merge/replace.
+3. Open the dashboard and select a tournament using Open workspace.
+4. Navigate through the sidebar and verify the selected tournament name remains visible.
+
+Validation:
+- PHP syntax checks passed for 8 primary PHP pages.
+- Test navigation and tournament switching in the local XAMPP environment.

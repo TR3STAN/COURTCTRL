@@ -1,0 +1,31 @@
+MULTI-COURT SCHEDULER MATCH-MAPPING FIX
+========================================
+
+This update fixes Excel import errors such as:
+"No database match for Low Novice Men's Doubles / Bracket B / Game 1".
+
+Cause:
+COURTCTRL assigns match_number sequentially across the entire category. It does
+not restart match_number at 1 for each bracket. The Excel timetable labels games
+as Game 1, Game 2, etc. within each bracket.
+
+Fix:
+The importer now maps Game N to the Nth Round Robin match within the selected
+bracket, ordered the same way as the Brackets page. This supports Bracket A, B,
+C, D, etc., even when their database match_number values are different.
+
+Installation:
+1. Extract this ZIP and merge/replace the existing project folder.
+2. Ensure fixed_schedule.php replaces:
+   C:\xampp\htdocs\pickleball_tournament\fixed_schedule.php
+3. Re-open:
+   http://localhost/pickleball_tournament/fixed_schedule.php
+4. Upload the same Final Schedule.xlsx again.
+
+The previous failed import validates all matches before starting its transaction,
+so it should not have saved any partial schedule assignments. If you have other
+schedules already saved for this tournament, only tick "Replace existing schedules"
+if you intend to overwrite them.
+
+Validation performed: PHP syntax check passed. Database import must be tested
+on the user's local XAMPP/MySQL database.

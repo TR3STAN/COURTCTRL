@@ -1,0 +1,18 @@
+COURTCTRL - Round Robin Court Grouping Display Fix
+
+Fix:
+- The Scoring & Standings match query now also retrieves match_schedules.court_id.
+- Round Robin cards can therefore be grouped under their already-assigned active courts instead of disappearing.
+- Category and bracket labels remain visible on each card.
+- Court reassignment remains optional and collapsed under "Reassign court (optional)".
+- Existing scoring controls are preserved.
+
+Install:
+1. Back up the current project folder and database.
+2. Extract this ZIP.
+3. Replace the pickleball_tournament folder in C:\xampp\htdocs\.
+4. Refresh Scoring & Standings.
+
+Validation:
+- PHP syntax check passed for scoring.php.
+- Database/browser runtime test was not performed.

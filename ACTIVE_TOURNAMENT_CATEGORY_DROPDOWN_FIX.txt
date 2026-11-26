@@ -1,0 +1,27 @@
+COURTCTRL - ACTIVE TOURNAMENT LABEL & CATEGORY DROPDOWN FIX
+===========================================================
+
+Changes in this update
+----------------------
+1. Category dropdowns now start with a blank placeholder:
+   "Select a category..."
+   They no longer silently select the first category when a module is opened.
+2. Live Feed no longer defaults to "All categories"; it waits for a category choice before loading match cards.
+3. The active tournament name is displayed on Players & Teams, Brackets, Schedule & Courts, Live Feed, Scoring & Standings, and Tournament Setup.
+4. Each module's sidebar links carry the active tournament ID so navigation keeps the same tournament context.
+5. Workspace sidebar includes links to all five modules as well as Tournament Setup.
+6. Tournament Setup uses the remembered active tournament when opened without an explicit tournament ID.
+7. Dashboard includes a shortcut to Tournament Workspace.
+
+Install
+-------
+1. Back up C:\xampp\htdocs\pickleball_tournament.
+2. Extract the ZIP into C:\xampp\htdocs\ and replace the existing files.
+3. Open the Dashboard and choose Open workspace for the tournament.
+4. Open each module. The tournament name should appear in the active tournament strip.
+5. Category dropdowns should initially say "Select a category...". Choose a category to load that module's data.
+
+Validation
+----------
+PHP syntax checks passed for index.php, workspace.php, tournaments.php, players.php, brackets.php, schedule.php, live_feed.php, and scoring.php.
+Please test actual database behavior in XAMPP after installing.

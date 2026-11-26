@@ -1,0 +1,16 @@
+COURTCTRL - Printable Score Sheet Game Number Fix
+
+Fix:
+- Printable Game / Order No. is now a unique sequential number for each sheet in the print run.
+- The same scheduling wave can still contain matches on different courts, but those matches no longer print duplicate Game / Order numbers.
+- The court scheduling wave logic is unchanged, so player conflict prevention remains in place.
+
+Install:
+1. Back up your current project folder and database.
+2. Extract this ZIP.
+3. Copy the included pickleball_tournament folder into C:\xampp\htdocs\ and replace the existing project files.
+4. Restart/refresh the local site and regenerate the score sheets from Live Feed.
+
+Validation:
+- PHP syntax check passed for print_score_sheets.php.
+- Database/runtime printing was not tested in this environment.

@@ -1,0 +1,51 @@
+COURTCTRL UPDATE — BRACKET COLORS, TEST TOOL VISIBILITY, CATEGORY LIVE FEED
+=============================================================================
+
+Changes made from the latest uploaded project
+----------------------------------------------
+1. Bracket colors are now consistent across:
+   - Brackets group cards
+   - Schedule & Courts bracket cards
+   - Live Feed bracket labels
+   - Printable score-sheet circles
+2. Added a 20-color palette. The color is derived from the bracket's saved
+   bracket_order, not from the order in which cards happen to render. Matches
+   belonging to the same bracket therefore keep the same color in print and on
+   screen. The organizer currently allows up to 20 groups.
+3. Optional test scoring is now inside a collapsed "Show optional test scoring
+   tools" disclosure. It is hidden by default in normal operation. The existing
+   confirmation prompts remain before test scores are generated.
+4. Live Feed now chooses the latest scheduled date belonging to the selected
+   category when the date field is not explicitly supplied. It no longer chooses
+   the earliest scheduled date from any category in the tournament.
+5. When changing category in Live Feed, the old date is cleared before reload.
+   This allows the new category's own latest scheduled date to be selected.
+
+Why Women's Novice could appear empty in Live Feed
+--------------------------------------------------
+Previously, Live Feed chose MIN(tournament_day) across the entire tournament.
+If Women's Novice was scheduled on a different day from the first category,
+the page could open on the wrong date and show no matches. The revised query
+uses MAX(tournament_day) for the selected category. The date control remains
+available so the organizer can switch to another scheduled day.
+
+Important
+---------
+- No database schema or tournament records were changed.
+- Completed matches with existing schedule rows remain in the schedule and are
+  still eligible to appear in Live Feed for their scheduled date.
+- Live Feed remains a one-day view: use the Game date field to view another day.
+- PHP syntax checks passed for brackets.php, scoring.php, live_feed.php,
+  schedule.php, and print_score_sheets.php.
+- This is a code-level validation; please test against a backup/copy of your
+  XAMPP database before using it at an actual tournament.
+
+Installation
+------------
+1. Back up C:\xampp\htdocs\pickleball_tournament and export the database.
+2. Extract this ZIP into C:\xampp\htdocs\ and replace the project files.
+3. Open Brackets and confirm each group card has its own color.
+4. Open Live Feed, select Women's Novice, and confirm the date automatically
+   changes to that category's latest scheduled date.
+5. Open Scoring & Standings and confirm test scoring is collapsed by default.
+6. Open Printable Score Sheets and confirm the circle colors match the bracket.
